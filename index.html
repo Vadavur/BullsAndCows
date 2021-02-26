@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style/style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Main page</title>
+</head>
+<body>
+	<div>
+		<textarea id="fields"></textarea><label>Options</label>
+        <textarea id="numOfFields"></textarea><label>Number of options</label>
+    </div>
+ 
+    <div>
+        <form id = 'typesOfWork'>      
+            <input class="gameInput" id='field' type="number" placeholder='field'><label for='field'>field</label>
+            <input class="gameInput" id='bulls' type="number" placeholder='bulls'><label for='bulls'>bulls</label>
+            <input class="gameInput" id='cows' type="number" placeholder='cows'><label for='cows'>cows</label>
+        </form>
+    </div>
+
+    <div>
+        <button id="getChances">Get chances!</button>
+        <button id="check">Check</button>
+    </div>
+
+    <div>
+        <textarea id="fields2"></textarea><label></label>
+        <textarea id="numOfFields2"></textarea><label></label>
+    </div>
+
+ <table id='chances'>
+    <tr id='headList'>
+        <th class="columnName">0</th>
+        <th class="columnName">1</th>
+        <th class="columnName">2</th>
+        <th class="columnName">3</th>
+        <th class="columnName">4</th>
+        <th class="columnName">5</th>
+        <th class="columnName">6</th>
+        <th class="columnName">7</th>
+        <th class="columnName">8</th>
+        <th class="columnName">9</th>
+    </tr>
+    <tr class="placeChances" id='Place0'>
+        <th class="firstPlace st0"></th>
+        <th class="firstPlace st1"></th>
+        <th class="firstPlace st2"></th>
+        <th class="firstPlace st3"></th>
+        <th class="firstPlace st4"></th>
+        <th class="firstPlace st5"></th>
+        <th class="firstPlace st6"></th>
+        <th class="firstPlace st7"></th>
+        <th class="firstPlace st8"></th>
+        <th class="firstPlace st9"></th>
+    </tr>    
+    <tr class="placeChances" id='Place1'>
+        <th class="secondPlace st0"></th>
+        <th class="secondPlace st1"></th>
+        <th class="secondPlace st2"></th>
+        <th class="secondPlace st3"></th>
+        <th class="secondPlace st4"></th>
+        <th class="secondPlace st5"></th>
+        <th class="secondPlace st6"></th>
+        <th class="secondPlace st7"></th>
+        <th class="secondPlace st8"></th>
+        <th class="secondPlace st9"></th>
+    </tr>
+    <tr class="placeChances" id='Place2'>
+        <th class="thirdPlace st0"></th>
+        <th class="thirdPlace st1"></th>
+        <th class="thirdPlace st2"></th>
+        <th class="thirdPlace st3"></th>
+        <th class="thirdPlace st4"></th>
+        <th class="thirdPlace st5"></th>
+        <th class="thirdPlace st6"></th>
+        <th class="thirdPlace st7"></th>
+        <th class="thirdPlace st8"></th>
+        <th class="thirdPlace st9"></th>
+    </tr>
+    <tr class="placeChances" id='Place3'>
+        <th class="firthPlace st0"></th>
+        <th class="firthPlace st1"></th>
+        <th class="firthPlace st2"></th>
+        <th class="firthPlace st3"></th>
+        <th class="firthPlace st4"></th>
+        <th class="firthPlace st5"></th>
+        <th class="firthPlace st6"></th>
+        <th class="firthPlace st7"></th>
+        <th class="firthPlace st8"></th>
+        <th class="firthPlace st9"></th>
+    </tr>
+    <tr id='sumChances'>
+        <th class="sumChances st0s"></th>
+        <th class="sumChances st1s"></th>
+        <th class="sumChances st2s"></th>
+        <th class="sumChances st3s"></th>
+        <th class="sumChances st4s"></th>
+        <th class="sumChances st5s"></th>
+        <th class="sumChances st6s"></th>
+        <th class="sumChances st7s"></th>
+        <th class="sumChances st8s"></th>
+        <th class="sumChances st9s"></th>
+    </tr>
+</table>
+
+    <script src="scripts/helpFun.js"></script>
+    <script src="scripts/start.js"></script>
+ 	<script src="scripts/listeners.js"></script>
+</body>
+</html>
